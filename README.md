@@ -47,3 +47,53 @@ Before you begin, ensure you have the following installed:
    ```sh
    git clone https://github.com/yourusername/dalle-clone.git
    cd dalle-clone
+
+2. **Install dependencies**
+  - **For the backend:**
+    ```sh
+    cd server
+    npm install
+  - **For the frontend:**
+    ```sh
+    cd client
+    npm install
+    
+3. **Configuration**
+   - **Backend configuration**
+   - Create a .env file in the server directory and add the following environment variables:
+     ```sh
+     MONGO_URI=your_mongo_connection_string
+     CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+     CLOUDINARY_API_KEY=your_cloudinary_api_key
+     CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+     OPENAI_API_KEY=your_openai_api_key
+     PORT=5000
+
+   - **Fronedn configuration**
+   - Create a .env file in the server directory and add the following environment variables:
+     ```sh
+     VITE_API_URL=http://localhost:5000
+4. **Usage**
+   - Start the backend server:
+     ```sh
+     cd server
+     npm start
+   - Start the frontend development server:
+     ```sh
+     cd client
+     npm run dev
+
+5. **Contributing**
+   Contributions are welcome! Please follow these steps
+   - Fork the repository.
+   - Create a new branch (git checkout -b feature-branch).
+   - Make your changes.
+   - Commit your changes (git commit -m 'Add new feature').
+   - Push to the branch (git push origin feature-branch).
+   - Open a pull request.
+
+6. **License**
+    This project is licensed under the MIT License. See the LICENSE file for details.
+
+     
+

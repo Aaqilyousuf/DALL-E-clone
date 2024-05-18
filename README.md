@@ -58,7 +58,7 @@ Before you begin, ensure you have the following installed:
     cd client
     npm install
     
-3. **Configuration**
+3. ## Configuration
    - **Backend configuration**
    - Create a .env file in the server directory and add the following environment variables:
      ```sh
@@ -73,7 +73,7 @@ Before you begin, ensure you have the following installed:
    - Create a .env file in the server directory and add the following environment variables:
      ```sh
      VITE_API_URL=http://localhost:5000
-4. **Usage**
+4. ## Usage
    - Start the backend server:
      ```sh
      cd server
@@ -83,8 +83,8 @@ Before you begin, ensure you have the following installed:
      cd client
      npm run dev
 
-5. **Contributing**
-   Contributions are welcome! Please follow these steps
+5. ## Contributing
+   **Contributions are welcome! Please follow these steps**
    - Fork the repository.
    - Create a new branch (git checkout -b feature-branch).
    - Make your changes.
@@ -92,8 +92,8 @@ Before you begin, ensure you have the following installed:
    - Push to the branch (git push origin feature-branch).
    - Open a pull request.
 
-6. **License**
-    This project is licensed under the MIT License. See the LICENSE file for details.
+6. ## License
+    **This project is licensed under the MIT License. See the LICENSE file for details.**
 
      
 
